@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "outDir": "./dist/js/",
+    "noEmitOnError": true
+  },
+  "include": ["./src/**/*"]
+}
+//target : Versão do javascript deve ser copilado
+//outDir : este diretorio indica onde ficara armazenado
+// o arquivo coplida do javascript
+//noEmitOnError : todo vez que encontra um erro ele não
+//dever copilar o arquivo js
+//include : onde deve procurrar os arquivos type script para procura
+//["./src/**/*"] neste caso deve executar todas os arquivos type script
+//que ele encotra na pasta src
